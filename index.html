@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Full Screen Chatbot | Botpress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: #000000a2;"">
+
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+
+<script>
+  window.botpressWebChat.init({
+      // Replace <your-bot-id> and <your-client-id> with your actual bot and client IDs
+      "botId": "0f20d6fa-49e4-48af-869a-b919f27b2ebc",
+      "clientId": "0f20d6fa-49e4-48af-869a-b919f27b2ebc",
+
+
+      // Set the URL for the Botpress WebChat JavaScript file and the messaging server
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+      "messagingUrl": "https://messaging.botpress.cloud",
+
+      // Set the name of the bot that will be displayed in the WebChat interface
+      "botName": "Lania Choice Bot",
+
+      // Set the width of the WebChat container and layout to 100% (Full Screen)
+      "containerWidth": "100%25",
+      "layoutWidth": "100%25",
+
+      // Hide the widget and disable animations
+      "hideWidget": false,
+      "disableAnimations": false,
+
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/02078ecd-8958-40c5-b94d-74c0343ae068/v85746/style.css",
+      "avatarUrl": "https://i.ibb.co/y5vkycB/CHOICE-96-96.png",
+        
+      "showTimestamp": false,
+      "enableTranscriptDownload": false,
+        
+      "botConversationDescription": "Я ИИ-продавец-консультант. Я могу помочь с выбором товара и ответить на любой вопрос по товару.",
+      "website": "https://choice.shopping",
+      "emailAddress": "info@choice.shopping",
+      "showBotInfoPage": true,
+      "locale": "ru",
+  });
+
+</script>
+
+</body>
+</html>
